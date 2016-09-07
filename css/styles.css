@@ -12,3 +12,22 @@ html, body, p, ul, h1, h2, h3, h4, h5 {
   font-size: 18px;
   background-color: white;
 }
+
+/*nav*/
+.container nav,
+header.surge-main,
+section.surge-courses {
+    padding: 0 72px;
+}
+.container nav ul{
+  display: flex;
+  height: 50px;
+  list-style-type: none;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+}
+.container nav ul li {
+  height: 50px;
+  line-height: 50px;
+  margin: 0 30px;
+}
