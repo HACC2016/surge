@@ -32,11 +32,14 @@ section.surge-courses {
   margin: 0 30px;
 }
 
-section.surge-courses {
-  width: auto;
-  height: 1000px;
+/*header*/
+.surge-main {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
+  width: 700;
+}
+
+.surge-main img {
+  width: 800px;
+  height: 400px;
 }
