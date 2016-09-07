@@ -13,12 +13,14 @@ The answer chosen triggers a "reaction" video/image and increases or decreases t
 
 Finish modules for badges and certificates.
 
-Surge is a...  
+#surge is a...  
+
 1). Collection of interactive branching simulation courses.
 
 2). Skill set validator for prospective employees.  
 
-Surge could potentially be a...
+#surge could potentially be a...
+
 1). Course creating platform.
 
 2). Recognized licensor.
