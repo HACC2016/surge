@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+html, body, p, ul, h1, h2, h3, h4, h5 {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: auto;
+  width: auto;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  background-color: white;
+}
+
+/*nav*/
+.container nav {
+    padding: 0 72px;
+}
+.container nav ul{
+  display: flex;
+  height: 100px;
+  list-style-type: none;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.container nav ul li {
+  height: 50px;
+  line-height: 50px;
+  margin: 0 30px;
+}
