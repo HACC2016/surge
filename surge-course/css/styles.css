@@ -30,3 +30,20 @@ html, body, p, ul, h1, h2, h3, h4, h5 {
   line-height: 50px;
   margin: 0 30px;
 }
+
+#logo {
+  float: left;
+}
+.non-nav {
+  display:flex;
+  justify-content: space-around;
+}
+
+.side-bar {
+  list-style-type: none;
+  width: 50px;
+}
+
+.side-bar li {
+  margin-bottom: 30px;
+}
