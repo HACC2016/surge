@@ -21,10 +21,11 @@ section.surge-courses {
 }
 .container nav ul{
   display: flex;
-  height: 50px;
+  height: 100px;
   list-style-type: none;
   justify-content: flex-start;
   flex-direction: row-reverse;
+  align-items: center;
 }
 .container nav ul li {
   height: 50px;
