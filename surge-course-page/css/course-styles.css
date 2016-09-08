@@ -49,12 +49,8 @@ section.profile-information h3 {
 
 section.courses-in-progress {
   list-style-type: none;
-  float: left;
+  float: right;
   display: flex;
   justify-content: center;
   margin: 100px;
-}
-
-section.courses-in-progress ul li {
-  margin: 30px;
 }
