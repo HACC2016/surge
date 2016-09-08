@@ -78,13 +78,9 @@ section.surge-courses {
 .surge-main {
   display: flex;
   justify-content: center;
-  width: 700;
+  align-items: center;
+  height: 100px;
   margin-bottom: 70px;
-}
-
-.surge-main img {
-  width: 800px;
-  height: 400px;
 }
 
 section.course-row ul {
