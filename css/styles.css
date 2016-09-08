@@ -43,3 +43,18 @@ section.surge-courses {
   width: 800px;
   height: 400px;
 }
+
+section.course-row ul {
+  width: auto;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+}
+
+section.course-row ul li{
+  height: 50px;
+  line-height: 50px;
+  margin: 0 30px;
+}
