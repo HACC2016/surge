@@ -5,7 +5,7 @@ html, body, p, ul, h1, h2, h3, h4, h5 {
   box-sizing: border-box;
 }
 
-container {
+.container {
   height: auto;
   width: auto;
   font-family: 'Lato', sans-serif;
@@ -29,4 +29,19 @@ container {
   height: 50px;
   line-height: 50px;
   margin: 0 30px;
+}
+
+section.profile-card {
+  height: 300px;
+  width: 300px;
+  margin: 100px;
+  text-align: center;
+}
+
+section.profile-information {
+  margin: 20px;
+}
+
+section.profile-information h3 {
+  margin-bottom: 20px;
 }
