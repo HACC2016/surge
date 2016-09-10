@@ -1,5 +1,7 @@
 window.onload = function() {
-  var vid = document.getElementById("video").addEventListener('ended', function(){
-    console.log("Video has ended!");
-  }, false);
+  var video = document.getElementsByTagName('video')[0];
+
+  video.onended = function(e) {
+    alert("hi");
+  }
 }
