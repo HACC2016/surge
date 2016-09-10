@@ -43,6 +43,8 @@ html, body, p, ul, h1, h2, h3, h4, h5 {
   width: 200px;
   height: 479px;
   overflow: scroll;
+  margin-right: 30px;
+  margin-top: 10px;
 }
 
 .side-bar ul {
@@ -51,6 +53,8 @@ html, body, p, ul, h1, h2, h3, h4, h5 {
 
 .side-bar li {
   margin-bottom: 30px;
+  border-bottom: 1px grey;
+  border-bottom-style: inset;
 }
 
 .temperature-bar {
