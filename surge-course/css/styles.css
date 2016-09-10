@@ -36,14 +36,18 @@ html, body, p, ul, h1, h2, h3, h4, h5 {
 }
 .non-nav {
   display:flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .side-bar {
   list-style-type: none;
-  width: 50px;
+  width: 200px;
 }
 
 .side-bar li {
   margin-bottom: 30px;
+}
+
+.temperature-bar {
+  margin-left: 40px;
 }
