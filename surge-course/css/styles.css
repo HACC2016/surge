@@ -40,8 +40,13 @@ html, body, p, ul, h1, h2, h3, h4, h5 {
 }
 
 .side-bar {
-  list-style-type: none;
   width: 200px;
+  height: 479px;
+  overflow: scroll;
+}
+
+.side-bar ul {
+  list-style-type: none;
 }
 
 .side-bar li {
