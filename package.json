@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/HACC2016/surge/issues"
   },
-  "homepage": "https://github.com/HACC2016/surge#readme"
+  "homepage": "https://github.com/HACC2016/surge#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
