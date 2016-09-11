@@ -4,4 +4,8 @@ window.onload = function() {
   video.onended = function(e) {
     alert("hi");
   }
+
+  function run() {
+    alert("hi");
+  }
 }
