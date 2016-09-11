@@ -13,6 +13,11 @@ html, body, p, ul, h1, h2, h3, h4, h5 {
   background-color: white;
 }
 
+/*link stylings*/
+a {
+  text-decoration: none;
+}
+
 /*nav*/
 .container nav {
     padding: 0 72px;

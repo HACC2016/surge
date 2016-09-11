@@ -12,7 +12,10 @@ html, body, p, ul, h1, h2, h3, h4, h5 {
   font-size: 18px;
   background-color: white;
 }
-
+/*link stylings*/
+a {
+  text-decoration: none; 
+}
 /*nav*/
 .container nav {
     padding: 0 72px;
@@ -29,6 +32,7 @@ html, body, p, ul, h1, h2, h3, h4, h5 {
   height: 50px;
   line-height: 50px;
   margin: 0 30px;
+  text-decoration: none;
 }
 
 section.profile-card {
