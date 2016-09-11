@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/HACC2016/surge#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "handlebars": "^4.0.5"
   }
 }
