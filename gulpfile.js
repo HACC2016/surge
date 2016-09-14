@@ -14,9 +14,7 @@ Gulp.task('default', _ => {
 
 });
 
-Gulp.task('dev', ['express', 'browser-sync'], _ => {
-
-});
+Gulp.task('dev', ['express', 'browser-sync', 'sass', 'sass:watch']);
 
 // Browser-Sync
 Gulp.task('browser-sync', _ => {
@@ -25,6 +23,7 @@ Gulp.task('browser-sync', _ => {
   });
 });
 
+// Express server
 Gulp.task('express', _ => {
   let options = { shell: true, stdio: "inherit" };
   return Spawn('node', ['index.js'], options);
@@ -38,6 +37,7 @@ Gulp.task('sass', _ => {
     .pipe(Concat('styles.css'))
     .pipe(SourceMaps.write('./maps'))
     .pipe(Gulp.dest('./server/public/css/'))
+    .pipe(BrowserSync.stream())
   ;
 });
 
