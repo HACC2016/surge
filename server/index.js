@@ -8,7 +8,11 @@ App.set('views', `${__dirname}/templates`);
 App.use(Express.static(`${__dirname}/public`));
 
 App.get('/', (req, res) => {
-  res.render('index');
+  res.render('homepage/index');
+});
+
+App.get('/course', (req, res) => {
+  res.render('course/index');
 });
 
 module.exports = App;
