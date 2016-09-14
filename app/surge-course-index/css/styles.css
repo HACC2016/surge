@@ -72,6 +72,7 @@ section.surge-courses {
   color: white;
   margin-top: 15%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 5;
@@ -80,6 +81,13 @@ section.surge-courses {
   background: rgba(0, 0, 0, 0.5);
 }
 
+#sign-up {
+  margin-top: 80px;
+  height: 50px;
+  width: 150px;
+  border-radius: 500px;
+  font-size: 18px;
+}
 section.course-row ul {
   width: auto;
   height: 300px;
