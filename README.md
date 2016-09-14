@@ -13,11 +13,11 @@ The answer chosen triggers a "reaction" video/image and increases or decreases t
 
 Finish modules for badges and certificates.
 
-#surge is a...  
+#surge is a...
 
 1). Collection of interactive branching simulation courses.
 
-2). Skill set validator for prospective employees.  
+2). Skill set validator for prospective employees.
 
 #surge could potentially be a...
 
@@ -26,3 +26,13 @@ Finish modules for badges and certificates.
 2). Recognized licensor.
 
 3). Data collection platform for research organizations.
+
+# Getting Started
+**Required software**
+Node version `6.4.0` or higher.
+NPM (comes with Node)
+Git
+
+1. Clone down repository and navigate into it in your terminal
+1. download dependencies by running the command `$ npm install`
+1. start the server with the command `$ npm start`
