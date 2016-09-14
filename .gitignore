@@ -1,4 +1,12 @@
-.DS_Store
+# package dependencies
 node_modules/
+
+# log files
+npm-*.log
+
+# emacs
 .tern-port
 .#*.js
+
+# misc file system
+.DS_Store
