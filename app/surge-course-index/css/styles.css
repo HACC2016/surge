@@ -8,6 +8,7 @@ html, body, p, ul, h1, h2, h3, h4, h5 {
 /*link stylings*/
 a {
   text-decoration: none;
+  color: white;
 }
 
 header {
@@ -15,7 +16,7 @@ header {
 }
 
 .container {
-  height: auto;
+  height: 3000px;
   width: auto;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
@@ -76,7 +77,7 @@ section.surge-courses {
   justify-content: center;
   align-items: center;
   z-index: 5;
-  height: 330px;
+  height: 300px;
   width: 330px;
   background: rgba(0, 0, 0, 0.5);
 }
@@ -87,7 +88,11 @@ section.surge-courses {
   width: 150px;
   border-radius: 500px;
   font-size: 18px;
+  background-color: rgb(79, 196, 177);
+  border: none;
+  color: white;
 }
+
 section.course-row ul {
   width: auto;
   height: 300px;

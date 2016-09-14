@@ -1,8 +1,10 @@
 window.onload = function() {
-  var me = document.getElementById("me");
-  var gear = document.getElementById("gear");
+  var header = document.getElementById('header');
+  var title = document.getElementById('title');
 
-  me.onclick = function() {
-    window.open(surge-course-page/index.html);
+  function testScroll(ev){
+      if(window.pageYOffset>400) {
+        title.innerHTML = "Helloooooo";
   }
+  window.onscroll = testScroll();
 }
