@@ -6,8 +6,7 @@ const ENVIRONMENT = process.env.NODE_ENV || 'DEVELOPMENT';
 const PORT = CONFIG[ENVIRONMENT].SERVER.PORT;
 
 Server.listen(PORT, _ => {
-  process.stdout.write(`
-    ${Chalk.bgCyan(`
+  process.stdout.write(`${Chalk.bgCyan(`
 ${Chalk.bgRed(`    _____  _____  _____  _____  _____   `)}
 ${Chalk.bgRed(`   |   __||  |  || __  ||   __||   __|  `)} ${Chalk.black.underline(`serv @ http://localhost:${PORT}`)}
 ${Chalk.bgRed(`   |__   ||  |  ||    -||  |  ||   __|  `)}
