@@ -1,3 +1,7 @@
+
+# don't track transpiled files
+server/public/css/
+
 # package dependencies
 node_modules/
 
