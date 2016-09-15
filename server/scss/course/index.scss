@@ -1,0 +1,58 @@
+@import '../globals';
+
+nav.navBarCourse {
+  padding: 0 72px;
+
+  ul{
+    display: flex;
+    height: 100px;
+    list-style-type: none;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  ul li {
+    height: 50px;
+    line-height: 50px;
+    margin: 0 30px;
+  }
+
+  ul li.circle {
+    margin: 0 4.8px;
+  }
+}
+
+.course-page {
+  /*nav*/
+
+  #logo {
+    float: left;
+  }
+  .non-nav {
+    display:flex;
+    justify-content: center;
+  }
+
+  .side-bar {
+    width: 200px;
+    height: 479px;
+    overflow: scroll;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+
+  .side-bar ul {
+    list-style-type: none;
+  }
+
+  .side-bar li {
+    margin-bottom: 30px;
+    border-bottom: 1px grey;
+    border-bottom-style: inset;
+  }
+
+  .temperature-bar {
+    margin-left: 40px;
+  }
+
+}
