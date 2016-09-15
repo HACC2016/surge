@@ -36,3 +36,6 @@ Git
 1. Clone down repository and navigate into it in your terminal
 1. download dependencies by running the command `$ npm install`
 1. start the server with the command `$ npm start`
+1. Your web browser should open automatically
+
+This project uses BrowserSync for better front-end developing by watching SCSS files located in the `server/scss/` directory and injects the new files into the browser and reloads the page automagically. :tada:
