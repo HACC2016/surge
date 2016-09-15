@@ -19,4 +19,8 @@ App.get('/course', (req, res) => {
   res.render('course/index');
 });
 
+App.get('/course/page', (req, res) => {
+  res.render('course/page');
+});
+
 module.exports = App;
