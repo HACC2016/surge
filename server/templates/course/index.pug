@@ -1,4 +1,5 @@
 extends ../layouts/mainLayout
+include ../components/video
 
 block navigation
   include ../partials/navBarCourse
@@ -19,9 +20,11 @@ block content
           li 1.9 lorem lorem
           li 1.10 lorem lorem
       section.lesson
-        video#video(width='850', height='500', onended='run()', controls='')
-          source#video(src='/assets/videos/test-video-spiral.mp4', type='video/mp4')
+        +videoComponent()
       section.temperature-bar
         img(src='/assets/imgs/sample-thermo.png', alt='thermo', height='500', width='50')
       section.arrow
         img(src='/assets/imgs/sample-arrow.png', alt='arrow', height='20', width='20')
+
+block scripts
+  script(src="js/components/video.js")
