@@ -10,9 +10,7 @@ const Spawn = require('child_process').spawn;
 const CONFIG = require('./config');
 const ENVIRONMENT = process.env.NODE_ENV || 'DEVELOPMENT';
 
-Gulp.task('default', _ => {
-
-});
+Gulp.task('default', ['dev']);
 
 Gulp.task('dev', ['express', 'browser-sync', 'sass', 'sass:watch']);
 
