@@ -12,5 +12,5 @@ ${Chalk.bgRed(`   |   __||  |  || __  ||   __||   __|  `)} ${Chalk.black.underli
 ${Chalk.bgRed(`   |__   ||  |  ||    -||  |  ||   __|  ${Chalk.bgCyan(`                                                 `)}`)}
 ${Chalk.bgRed(`   |_____||_____||__|__||_____||_____|  `)}${Chalk.bgCyan(` hacked by |> Gina |> Sean |> Ray; 2016 HACC     `)}
 ${Chalk.bgRed(`                                        ${Chalk.bgCyan(`                                                 `)}`)}`)}
-                                                                                                                        `);
+                                                                                                                        \n\n`);
 });
