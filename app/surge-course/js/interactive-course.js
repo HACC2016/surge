@@ -1,13 +1,19 @@
 window.onload = function() {
+  var x = 'What?';
+  var y = 'Good! What about you bruddah?';
   var video = document.getElementById('video');
-
+  var answer1 = document.createElement("button");
+  var answer2 = document.createElement("button");
+  var value1 = document.createTextNode(x);
+  var value2 = document.createTextNode(y);
 
   video.addEventListener("ended", function(e) {
     console.log("ended fired!");
-    var answer = document.createElement("button");
-    var value = document.createTextNode("What?");
-    answer.appendChild(value);
-    document.getElementById('question').appendChild(answer);
+    answer1.appendChild(value1);
+    document.getElementById('question').appendChild(answer1);
+
+    answer2.appendChild(value2);
+    document.getElementById('question').appendChild(answer2);
   }, false);
 
   video.addEventListener("loadedmetadata", function() {

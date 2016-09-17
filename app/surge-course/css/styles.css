@@ -16,6 +16,7 @@ html, body, p, ul, h1, h2, h3, h4, h5 {
 /*link stylings*/
 a {
   text-decoration: none;
+  border: 0;
 }
 
 /*nav*/
@@ -68,4 +69,26 @@ a {
 
 .temperature-bar {
   margin-left: 40px;
+}
+
+/*video question space stylings*/
+#question {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: rgba(121, 201, 210, 0.5);
+}
+
+button {
+  height: 50px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 100px;
+  border-radius: 500px;
+  font-size: 18px;
+  background-color: rgb(79, 196, 177);
+  border: none;
+  color: white;
 }
