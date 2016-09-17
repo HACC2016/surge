@@ -55,6 +55,30 @@ window.onload = function() {
       })
       }
 
+    answerNumber2.onclick = function() {
+      console.log("hello this is scene2!!!");
+      source.setAttribute('src', 'video2.m4v');
+      video.load();
+      video.play();
+
+      removeElement('answerNumber1');
+      removeElement('answerNumber2');
+
+      video.addEventListener("ended", function(e) {
+        console.log("ended fired for scenario1!");
+        answer3.appendChild(value3);
+        document.getElementById('question').appendChild(answer3);
+        removeElement('answerNumber1');
+        removeElement('answerNumber2');
+
+        answerNumber3.onclick = function() {
+          removeElement('answerNumber3');
+          answer4.appendChild(value4);
+          document.getElementById('question').appendChild(answer4);
+        }
+      })
+    }
+
   }, false);
 
   video.load();
