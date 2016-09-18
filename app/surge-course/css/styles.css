@@ -74,9 +74,20 @@ a {
   color: white;
 }
 
-.temperature-bar {
-  margin-left: 40px;
-}
+/*.temperature {
+  width: 40px;
+  height: 479px;
+  margin-left: 30px;
+  border-radius: 500px;
+  border-bottom: 4px solid grey;
+  border-bottom-style: inset;
+  background: rgb(24, 73, 71); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(rgb(24, 73, 71), rgb(159, 223, 218)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgb(24, 73, 71), rgb(159, 223, 218); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgb(24, 73, 71), rgb(159, 223, 218); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgb(24, 73, 71), rgb(159, 223, 218); /* Standard syntax */
+
+}*/
 
 /*video question space stylings*/
 #question {
