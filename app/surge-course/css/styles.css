@@ -64,6 +64,8 @@ a {
   margin-bottom: 30px;
   border-bottom: 1px grey;
   border-bottom-style: inset;
+  background-color: rgb(159, 223, 195);
+  border-radius: 500px;
 }
 
 .temperature-bar {
@@ -77,6 +79,7 @@ a {
   align-items: center;
   height: 100px;
   background-color: rgba(121, 201, 210, 0.5);
+  border-radius: 500px;
 }
 
 button {

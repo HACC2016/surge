@@ -1,2 +1,8 @@
 .DS_Store
 node_modules/
+**/*.mp4
+**/*.jpg
+**/*.png
+**/*.ogv
+**/*.webm
+**/*.m4v
