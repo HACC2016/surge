@@ -16,7 +16,7 @@ header {
 }
 
 .container {
-  height: 3000px;
+  height: 1000px;
   width: auto;
   font-family: 'Lato', sans-serif;
   font-size: 18px;
@@ -30,11 +30,8 @@ video {
   left: 0;
   bottom: 0;
   z-index: 1;
-  min-width: 100%;
-  min-height: 100%;
   width: auto;
   height: auto;
-  object-fit: fill;
 }
 
 /*nav*/
@@ -82,6 +79,7 @@ section.surge-courses {
   background: rgba(0, 0, 0, 0.5);
 }
 
+
 #sign-up {
   margin-top: 80px;
   height: 50px;
@@ -93,21 +91,4 @@ section.surge-courses {
   color: white;
 }
 
-section.course-row ul {
-  width: auto;
-  height: 300px;
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  justify-content: center;
-}
-
-section.course-row ul li{
-  height: 50px;
-  line-height: 50px;
-  margin: 30px;
-}
-
-p {
-  margin-left: 180px;
 }
