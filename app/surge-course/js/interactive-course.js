@@ -1,44 +1,31 @@
 window.onload = function() {
-  var x = 'What?';
-  var y = 'Good! What about you bruddah?';
-  var y2 = 'Shootz!';
-
+  // Video variables.
   var video = document.querySelector('#video');
   var source = document.querySelector('#video-source');
 
-  var answer1 = document.createElement("button");
-  answer1.setAttribute("id", "answerNumber1");
-  var answer2 = document.createElement("button");
-  answer2.setAttribute("id", "answerNumber2");
-  var answer3 = document.createElement("button");
-  answer3.setAttribute("id", "answerNumber3");
-  var answer4 = document.createElement("button");
-  answer4.setAttribute("id", "answerNumber4");
-  var value1 = document.createTextNode(x);
-  var value2 = document.createTextNode(y);
-  var value3 = document.createTextNode(y2);
-  var value4 = document.createTextNode("The End");
+  // Create button and append to div below video.
+  function addButton(value, id) {
+    var answer = document.createElement("button");
+    answer.setAttribute("id", id);
+    var value = document.createTextNode(value);
+    answer.appendChild(value);
+    document.getElementById('question').appendChild(answer);
+  }
 
-  // Removes an element from the document
+  // Removes an element from the document.
   function removeElement(elementId) {
     var element = document.getElementById(elementId);
     element.parentNode.removeChild(element);
     }
 
+  // On end of 1st video, append buttons to div.
   video.addEventListener("ended", function(e) {
 
-    console.log("ended fired!");
-    answer1.appendChild(value1);
-    document.getElementById('question').appendChild(answer1);
+    addButton("What?", "answerNumber1");
+    addButton("Good!", "answerNumber2");
 
-    answer2.appendChild(value2);
-    document.getElementById('question').appendChild(answer2);
-
-    document.querySelector("answerNumber1");
-    document.querySelector("answerNumber2");
-
+    // On click of the answer, route to another video and remove the buttons.
     answerNumber1.onclick = function() {
-      console.log("hello");
       source.setAttribute('src', 'video1.mp4');
       video.load();
       video.play();
@@ -47,16 +34,14 @@ window.onload = function() {
       removeElement('answerNumber2');
 
       video.addEventListener("ended", function(e) {
-        console.log("ended fired for scenario1!");
-        answer3.appendChild(value4);
-        document.getElementById('question').appendChild(answer3);
+        addButton("The End", "answerNumber3");
+
         removeElement('answerNumber1');
         removeElement('answerNumber2');
       })
       }
 
     answerNumber2.onclick = function() {
-      console.log("hello this is scene2!!!");
       source.setAttribute('src', 'video2.m4v');
       video.load();
       video.play();
@@ -65,16 +50,15 @@ window.onload = function() {
       removeElement('answerNumber2');
 
       video.addEventListener("ended", function(e) {
-        console.log("ended fired for scenario1!");
-        answer3.appendChild(value3);
-        document.getElementById('question').appendChild(answer3);
+        addButton("Shootz!", "answerNumber4");
+
         removeElement('answerNumber1');
         removeElement('answerNumber2');
 
-        answerNumber3.onclick = function() {
-          removeElement('answerNumber3');
-          answer4.appendChild(value4);
-          document.getElementById('question').appendChild(answer4);
+        answerNumber4.onclick = function() {
+          removeElement('answerNumber4');
+          addButton("The End", "answerNumber5");
+
         }
       })
     }
