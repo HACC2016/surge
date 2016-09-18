@@ -26,7 +26,7 @@ window.onload = function() {
 
     // On click of the answer, route to another video and remove the buttons.
     answerNumber1.onclick = function() {
-      source.setAttribute('src', 'js/video1.mp4');
+      source.setAttribute('src', '../surge-course/video1.mp4');
       video.load();
       video.play();
 
@@ -42,7 +42,7 @@ window.onload = function() {
       }
 
     answerNumber2.onclick = function() {
-      source.setAttribute('src', 'js/video2.m4v');
+      source.setAttribute('src', '../surge-course/video2.m4v');
       video.load();
       video.play();
 

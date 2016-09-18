@@ -74,7 +74,7 @@ a {
   color: white;
 }
 
-/*.temperature {
+.temperature {
   width: 40px;
   height: 479px;
   margin-left: 30px;
@@ -87,7 +87,7 @@ a {
   background: -moz-linear-gradient(rgb(24, 73, 71), rgb(159, 223, 218); /* For Firefox 3.6 to 15 */
   background: linear-gradient(rgb(24, 73, 71), rgb(159, 223, 218); /* Standard syntax */
 
-}*/
+}
 
 /*video question space stylings*/
 #question {
