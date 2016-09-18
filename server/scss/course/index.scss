@@ -9,48 +9,86 @@ nav.navBarCourse {
     flex-direction: row-reverse;
     align-items: center;
   }
-  ul li {
-    height: 50px;
-    line-height: 50px;
-    margin: 0 30px;
-  }
+    li {
+      height: 50px;
+      line-height: 50px;
+      margin: 0 30px;
+    }
 
-  ul li.circle {
-    margin: 0 4.8px;
-  }
+      .circle {
+        margin: 0 4.8px;
+      }
 }
 
 .course-page {
-  /*nav*/
 
-  #logo {
-    float: left;
-  }
-  .non-nav {
+  section.non-nav {
     display:flex;
     justify-content: center;
   }
 
-  .side-bar {
-    width: 200px;
-    height: 479px;
-    overflow: scroll;
-    margin-right: 30px;
-    margin-top: 10px;
-  }
+    .side-bar {
+      width: 200px;
+      height: 479px;
+      overflow: scroll;
+      margin-right: 30px;
+      margin-top: 10px;
+    }
 
-  .side-bar ul {
-    list-style-type: none;
-  }
+      ul {
+        list-style-type: none;
+      }
 
-  .side-bar li {
-    margin-bottom: 30px;
-    border-bottom: 1px grey;
-    border-bottom-style: inset;
-  }
+        li {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          align-content: center;
+          margin-bottom: 30px;
+          border-bottom: 4px grey;
+          border-bottom-style: inset;
+          background-color: rgb(113, 202, 208);
+          border-radius: 500px;
+          padding: 10px;
+          color: white;
+        }
 
-  .temperature-bar {
-    margin-left: 40px;
-  }
+    .temperature {
+      width: 40px;
+      height: 479px;
+      margin-left: 30px;
+      border-radius: 500px;
+      border-bottom: 4px solid grey;
+      border-bottom-style: inset;
+      background: rgb(24, 73, 71);
+      // background: -webkit-linear-gradient(rgb(24, 73, 71), rgb(159, 223, 218));
+      // background: -o-linear-gradient(rgb(24, 73, 71), rgb(159, 223, 218);
+      // background: -moz-linear-gradient(rgb(24, 73, 71), rgb(159, 223, 218);
+      // background: linear-gradient(rgb(24, 73, 71), rgb(159, 223, 218);
+    }
+
+    #question {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 100px;
+      background-color: rgba(121, 201, 210, 0.5);
+      border-radius: 500px;
+    }
+
+      button {
+        height: 50px;
+        width: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        min-width: 100px;
+        border-radius: 500px;
+        font-size: 18px;
+        background-color: rgb(19, 15, 46);
+        border: none;
+        color: white;
+        border-bottom: 4px grey;
+        border-bottom-style: inset;
+      }
 
 }

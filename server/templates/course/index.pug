@@ -8,20 +8,23 @@ block content
     section.non-nav
       section.side-bar
         ul
-          li 1.1 lorem lorem
-          li 1.2 lorem lorem
-          li 1.3 lorem lorem
-          li 1.4 lorem lorem
-          li 1.5 lorem lorem
-          li 1.6 lorem lorem
-          li 1.7 lorem lorem
-          li 1.8 lorem lorem
-          li 1.9 lorem lorem
-          li 1.10 lorem lorem
+          li 1.1 Eh' Brah
+          li 1.2 Choke Grindz
+          li 1.3 Pau Work?
+          li 1.4 Shootz
+          li 1.5 Like Beef?
+          li 1.6 Da Kine Ah?
+          li 1.7 Rajah Dat
+          li 1.8 Aunty!
+          li 1.9 Tanks Ah
+          li 1.10 Cheehoo!
       section.lesson
-        video#video(width='850', height='500', onended='run()', controls='')
-          source#video(src='/assets/videos/test-video-spiral.mp4', type='video/mp4')
+        video#video(width='850', height='500', controls='')
+          source#video-source(src='/assets/videos/howzit.mp4')
+        #question
       section.temperature-bar
-        img(src='/assets/imgs/sample-thermo.png', alt='thermo', height='500', width='50')
+        .temperature
       section.arrow
-        img(src='/assets/imgs/sample-arrow.png', alt='arrow', height='20', width='20')
+        img(src='sample-arrow.png', alt='arrow', height='20', width='20')
+      script(src='/js/lib/popcorn.min.js')
+      script(src='/js/client.js')
