@@ -14,3 +14,10 @@ npm-*.log
 
 # misc file system
 .DS_Store
+
+**/*.mp4
+**/*.jpg
+**/*.png
+**/*.ogv
+**/*.webm
+**/*.m4v

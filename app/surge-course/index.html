@@ -47,27 +47,31 @@
     <section class="non-nav">
       <section class="side-bar">
         <ul>
-          <li>1.1 lorem lorem</li>
-          <li>1.2 lorem lorem</li>
-          <li>1.3 lorem lorem</li>
-          <li>1.4 lorem lorem</li>
-          <li>1.5 lorem lorem</li>
-          <li>1.6 lorem lorem</li>
-          <li>1.7 lorem lorem</li>
-          <li>1.8 lorem lorem</li>
-          <li>1.9 lorem lorem</li>
-          <li>1.10 lorem lorem</li>
+          <li>1.1 Eh' Brah </li>
+          <li>1.2 Choke Grindz</li>
+          <li>1.3 Pau Work?</li>
+          <li>1.4 Shootz</li>
+          <li>1.5 Like Beef?</li>
+          <li>1.6 Da Kine Ah?</li>
+          <li>1.7 Rajah Dat</li>
+          <li>1.8 Aunty!</li>
+          <li>1.9 Tanks Ah</li>
+          <li>1.10 Cheehoo!</li>
         </ul>
       </section>
 
       <section class="lesson">
-        <video id = "video" width="850" height="500" onended = "run()" controls>
-          <source id = "video" src="test-video-spiral.mp4" type="video/mp4">
+        <video id = "video" width="850" height="500" controls>
+          <source id = "video-source" src="test-video-spiral.mp4"></source>
+          <source src="test-video-spiral.ogv"></source>
+          <source src="test-video-spiral.webm"></source>
         </video>
+
+        <div id="question"></div>
       </section>
 
       <section class="temperature-bar">
-        <img src="sample-thermo.png" alt="thermo" height = "500" width = "50">
+        <div class="temperature"></div>
       </section>
 
       <section class="arrow">
@@ -78,4 +82,7 @@
   </div>
 
 </body>
+
+<script src = "js/popcorn.min.js"></script>
+<script src = "js/interactive-course.js"></script>
 </html>
