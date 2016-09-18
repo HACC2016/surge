@@ -31,8 +31,16 @@
         height: 50px;
         line-height: 50px;
         margin: 0 30px;
+        text-decoration: none;
+        list-style-type: none;
+        color: white;
       }
 
+        a {
+          text-decoration: none;
+          list-style-type: none;
+          color: black;
+        }
     /*header*/
     .surge-main {
       height: 400px;

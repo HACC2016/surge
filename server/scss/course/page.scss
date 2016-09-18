@@ -22,12 +22,19 @@
     margin: 100px;
   }
 
-  section.courses-in-progress ul {
-    list-style-type: none;
-    margin-right: 40px;
-  }
+    section.courses-in-progress ul {
+      list-style-type: none;
+      margin-right: 40px;
+    }
 
-  section.courses-in-progress img {
-    margin-left: 50px;
-  }
+      li a {
+        text-decoration: none;
+        list-style-type: none;
+        color: black;
+      }
+
+
+        img {
+          margin-left: 50px;
+        }
 }

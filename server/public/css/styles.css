@@ -11,6 +11,10 @@ nav.navBarCourse {
     height: 50px;
     line-height: 50px;
     margin: 0 30px; }
+  nav.navBarCourse a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black; }
   nav.navBarCourse .circle {
     margin: 0 4.8px; }
 
@@ -95,7 +99,12 @@ nav.navBarCourse {
   list-style-type: none;
   margin-right: 40px; }
 
-.course-page section.courses-in-progress img {
+.course-page li a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black; }
+
+.course-page img {
   margin-left: 50px; }
 
 .home-page {
@@ -126,7 +135,14 @@ nav.navBarCourse {
     z-index: 3;
     height: 50px;
     line-height: 50px;
-    margin: 0 30px; }
+    margin: 0 30px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white; }
+  .home-page a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black; }
   .home-page .surge-main {
     height: 400px;
     position: relative;
