@@ -61,11 +61,17 @@ a {
 }
 
 .side-bar li {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
   margin-bottom: 30px;
-  border-bottom: 1px grey;
+  border-bottom: 4px grey;
   border-bottom-style: inset;
-  background-color: rgb(159, 223, 195);
+  background-color: rgb(113, 202, 208);
   border-radius: 500px;
+  padding: 10px;
+  color: white;
 }
 
 .temperature-bar {
@@ -90,7 +96,9 @@ button {
   min-width: 100px;
   border-radius: 500px;
   font-size: 18px;
-  background-color: rgb(79, 196, 177);
+  background-color: rgb(19, 15, 46);
   border: none;
   color: white;
+  border-bottom: 4px grey;
+  border-bottom-style: inset;
 }
