@@ -129,7 +129,8 @@ nav.navBarCourse {
     list-style-type: none;
     justify-content: flex-start;
     flex-direction: row-reverse;
-    align-items: center; }
+    align-items: center;
+    padding: 0 72px; }
   .home-page nav ul li {
     position: relative;
     z-index: 3;
