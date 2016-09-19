@@ -6,7 +6,9 @@ nav.navBarCourse {
     list-style-type: none;
     justify-content: flex-start;
     flex-direction: row-reverse;
-    align-items: center; }
+    align-items: center;
+    background: rgba(134, 92, 45, 0.2);
+    border-radius: 500px; }
   nav.navBarCourse li {
     height: 50px;
     line-height: 50px;
@@ -24,7 +26,7 @@ nav.navBarCourse {
   justify-content: center; }
 
 .course-page .side-bar {
-  width: 200px;
+  width: 250px;
   height: 479px;
   overflow: scroll;
   margin-right: 30px;
@@ -143,6 +145,8 @@ nav.navBarCourse {
     flex-direction: row-reverse;
     align-items: center;
     padding: 0 72px;
+    background: rgba(134, 92, 45, 0.2);
+    border-radius: 500px;
     width: auto; }
   .home-page nav ul li {
     position: relative;

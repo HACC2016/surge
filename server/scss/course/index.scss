@@ -8,6 +8,8 @@ nav.navBarCourse {
     justify-content: flex-start;
     flex-direction: row-reverse;
     align-items: center;
+    background: rgba(134, 92, 45, 0.2);
+    border-radius: 500px;
   }
     li {
       height: 50px;
@@ -35,7 +37,7 @@ nav.navBarCourse {
   }
 
     .side-bar {
-      width: 200px;
+      width: 250px;
       height: 479px;
       overflow: scroll;
       margin-right: 30px;
