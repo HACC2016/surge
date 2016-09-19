@@ -60,7 +60,11 @@ window.onload = function() {
           video.load();
           video.play();
           removeElement('answerNumber4');
-          addButton("The End", "answerNumber5");
+
+          video.addEventListener("ended", function(e) {
+            removeElement('answerNumber4');
+            addButton("The End", "answerNumber5");
+          })
 
         }
       })
