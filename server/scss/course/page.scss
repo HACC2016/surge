@@ -2,27 +2,32 @@
   section.profile-card {
     height: 300px;
     width: 300px;
-    margin: 100px;
+    margin-left: 100px;
     text-align: center;
     float: left;
   }
 
   section.profile-information {
-    margin: 20px;
+    margin-left: 60px;
   }
 
-  section.profile-information h3 {
-    margin-bottom: 20px;
-  }
+    h3 {
+      margin-bottom: 20px;
+      font-family: 'Lato', sans-serif;
+    }
+
+    p {
+      font-family: 'Lato', sans-serif;
+    }
 
   section.courses-in-progress {
     float: right;
     display: flex;
     justify-content: center;
-    margin: 100px;
+    margin-right: 120px;
   }
 
-    section.courses-in-progress ul {
+    ul {
       list-style-type: none;
       margin-right: 40px;
     }
@@ -31,10 +36,12 @@
         text-decoration: none;
         list-style-type: none;
         color: black;
+        font-family: 'Lato', sans-serif;
       }
 
 
         img {
-          margin-left: 50px;
+          margin-left: 30px;
+          border-radius: 500px;
         }
 }

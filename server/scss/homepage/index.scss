@@ -18,13 +18,15 @@
     nav ul {
       position: relative;
       z-index: 2;
-      height: 100px;
+      height: 70px;
       display: flex;
       list-style-type: none;
       justify-content: flex-start;
       flex-direction: row-reverse;
       align-items: center;
-      padding: 0 72px; 
+      padding: 0 72px;
+      // background: rgba(134, 92, 45, 0.2);
+      width: auto;
     }
       nav ul li {
         position: relative;
@@ -34,13 +36,13 @@
         margin: 0 30px;
         text-decoration: none;
         list-style-type: none;
-        color: white;
       }
 
         a {
           text-decoration: none;
           list-style-type: none;
           color: black;
+          font-family: 'Lato', sans-serif;
         }
     /*header*/
     .surge-main {
@@ -74,6 +76,7 @@
         justify-content: center;
         align-items: center;
         background: rgba(0, 0, 0, 0.5);
+        font-family: 'Lato', sans-serif;
       }
         #sign-up {
           margin-top: 80px;
