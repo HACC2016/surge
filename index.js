@@ -3,6 +3,7 @@ const CONFIG = require('./config');
 const Chalk = require('chalk');
 
 const ENVIRONMENT = process.env.NODE_ENV || 'DEVELOPMENT';
+console.log(ENVIRONMENT);
 const PORT = CONFIG[ENVIRONMENT].SERVER.PORT;
 
 Server.listen(PORT, _ => {
