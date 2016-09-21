@@ -4,7 +4,6 @@ const Chalk = require('chalk');
 
 const ENVIRONMENT = process.env.NODE_ENV || 'DEVELOPMENT';
 const PORT = process.env.PORT || CONFIG[ENVIRONMENT].SERVER.PORT;
-console.log(ENVIRONMENT, process.env.PORT);
 
 Server.listen(PORT, _ => {
   process.stdout.write(`${Chalk.bgCyan(`
