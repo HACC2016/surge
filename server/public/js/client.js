@@ -2,6 +2,8 @@ window.onload = function() {
   // Video variables.
   var video = document.querySelector('#video');
   var source = document.querySelector('#video-source');
+  var tempNumber = 0;
+  var tempBar = document.getElementById('temperature');
 
   // Create button and append to div below video.
   function addButton(value, id) {
@@ -26,6 +28,7 @@ window.onload = function() {
 
     // On click of the answer, route to another video and remove the buttons.
     answerNumber1.onclick = function() {
+      tempNumber = 1;
       source.setAttribute('src', 'assets/videos/what.mp4');
       video.load();
       video.play();
@@ -42,6 +45,7 @@ window.onload = function() {
       }
 
     answerNumber2.onclick = function() {
+      tempNumber = 2;
       source.setAttribute('src', 'assets/videos/ohsupbrah.mp4');
       video.load();
       video.play();
@@ -56,6 +60,7 @@ window.onload = function() {
         removeElement('answerNumber2');
 
         answerNumber4.onclick = function() {
+          tempNumber = 3;
           source.setAttribute('src', 'assets/videos/shootz.mp4');
           video.load();
           video.play();
@@ -71,6 +76,17 @@ window.onload = function() {
     }
 
   }, false);
+
+  if (tempNumber === 0) {
+    tempBar.style.color = "black";
+    console.log("black hello");
+  } else if (tempNumber === 2) {
+    tempBar.style.color = "yellow";
+    console.log("yellow hello");
+  } else if (tempNumber === 3) {
+    tempBar.style.color = "blue";
+    console.log("blue hello");
+  }
 
   video.load();
   video.play();

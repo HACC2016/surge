@@ -50,7 +50,7 @@ nav.navBarCourse {
 .course-page a {
   font-family: 'Lato', sans-serif; }
 
-.course-page .temperature {
+.course-page #temperature {
   width: 40px;
   height: 479px;
   margin-left: 30px;
