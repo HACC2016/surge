@@ -28,7 +28,7 @@ window.onload = function() {
 
     // On click of the answer, route to another video and remove the buttons.
     answerNumber1.onclick = function() {
-      tempNumber = 1;
+      tempBar.style.background = "#0A1C1F"
       source.setAttribute('src', 'assets/videos/what.mp4');
       video.load();
       video.play();
@@ -45,7 +45,7 @@ window.onload = function() {
       }
 
     answerNumber2.onclick = function() {
-      tempNumber = 2;
+      tempBar.style.background = "#255B6F"
       source.setAttribute('src', 'assets/videos/ohsupbrah.mp4');
       video.load();
       video.play();
@@ -60,7 +60,7 @@ window.onload = function() {
         removeElement('answerNumber2');
 
         answerNumber4.onclick = function() {
-          tempNumber = 3;
+          tempBar.style.background = "#39AAAC"
           source.setAttribute('src', 'assets/videos/shootz.mp4');
           video.load();
           video.play();
@@ -76,17 +76,6 @@ window.onload = function() {
     }
 
   }, false);
-
-  if (tempNumber === 0) {
-    tempBar.style.color = "black";
-    console.log("black hello");
-  } else if (tempNumber === 2) {
-    tempBar.style.color = "yellow";
-    console.log("yellow hello");
-  } else if (tempNumber === 3) {
-    tempBar.style.color = "blue";
-    console.log("blue hello");
-  }
 
   video.load();
   video.play();
