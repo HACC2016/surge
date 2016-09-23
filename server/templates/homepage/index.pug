@@ -12,4 +12,7 @@ block content
         a(href='signup/index.html')
         button#sign-up signup
       .fullscreen-bg
-        video#home-video.fullscreen-bg-video(muted='', autoplay='', src='/assets/videos/cheer.mp4')
+        video#home-video.fullscreen-bg-video(muted='', autoplay='')
+          source#homey(src='/assets/videos/cheer.mp4')
+    script(src='/js/homepage.js')
+    script(src='/js/lib/popcorn.min.js')
