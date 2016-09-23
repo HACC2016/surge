@@ -5,6 +5,18 @@ block navigation
 
 block content
   .analytics
-      canvas#myChart(width='400', height='400')
+    section.canvas
+      canvas#myChart(width='2', height='2')
+    section.category
+      ul
+        li Everyone
+        li Age
+        li Gender
+        li Ethnicity
+        li Specialty
+        li Major
+        li Career
+        li State
+        li Country
   script(src='/js/lib/chart.bundle.min.js')
   script(src='/js/analytics.js')

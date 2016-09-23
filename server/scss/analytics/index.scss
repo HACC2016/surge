@@ -23,3 +23,46 @@ nav.navBarCourse {
         font-family: 'Lato', sans-serif;
       }
 }
+
+.analytics {
+  height: 600px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+
+  .canvas {
+    height: 500px;
+    width: 500px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .category {
+    height: 500px;
+    width: 200px;
+    border-right: 0.2px solid grey;
+    overflow: scroll;
+
+      ul {
+        list-style-type: none;
+      }
+
+        li {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          align-content: center;
+          margin-bottom: 30px;
+          border-bottom: 1px grey;
+          border-bottom-style: inset;
+          padding: 10px;
+          color: black;
+          font-family: 'Lato', sans-serif;
+        }
+
+            a {
+              font-family: 'Lato', sans-serif;
+            }
+  }
+}
