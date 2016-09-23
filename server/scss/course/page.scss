@@ -49,11 +49,68 @@
       margin-right: 30px;
     }
 
-    #inner-progress {
-      background-color: rgb(79, 196, 177);
-      height: 30px;
-      width: 120px;
-      margin-right: 30px;
+      #inner-progress {
+        background-color: rgb(79, 196, 177);
+        height: 30px;
+        width: 120px;
+        margin-right: 30px;
+      }
+      #inner-progress1 {
+        background-color: rgb(79, 196, 177);
+        height: 30px;
+        width: 70px;
+        margin-right: 30px;
+      }
+      #inner-progress2 {
+        background-color: rgb(79, 196, 177);
+        height: 30px;
+        width: 200px;
+        margin-right: 30px;
+      }
+      #inner-progress3 {
+        background-color: rgb(79, 196, 177);
+        height: 30px;
+        width: 30px;
+        margin-right: 30px;
+      }
+      #inner-progress4 {
+        background-color: rgb(79, 196, 177);
+        height: 30px;
+        width: 178px;
+        margin-right: 30px;
+      }
+      #inner-progress5 {
+        background-color: rgb(79, 196, 177);
+        height: 30px;
+        width: 100px;
+        margin-right: 30px;
+      }
+      #inner-progress6 {
+        background-color: rgb(79, 196, 177);
+        height: 30px;
+        width: 44px;
+        margin-right: 30px;
+      }
+      #inner-progress7 {
+        background-color: rgb(79, 196, 177);
+        height: 30px;
+        width: 76px;
+        margin-right: 30px;
+      }
+
+  li.special {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height:80px;
+    width: auto;
+    white-space: nowrap;
+  }
+
+    .movie {
+      height: 70px;
+      width: 100px;
+      background-color: rgba(70, 70, 70, 0.2);
+      margin: 2px;
     }
 
   img {
