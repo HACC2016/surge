@@ -7,7 +7,8 @@ nav.navBarCourse {
     list-style-type: none;
     justify-content: flex-start;
     flex-direction: row-reverse;
-    align-items: center; }
+    align-items: center;
+    border-bottom: 1px solid black; }
   nav.navBarCourse li {
     height: 50px;
     line-height: 50px;
@@ -156,7 +157,7 @@ nav.navBarCourse {
   .home-page a {
     text-decoration: none;
     list-style-type: none;
-    color: black;
+    color: white;
     font-family: 'Lato', sans-serif; }
   .home-page .surge-main {
     height: 400px;
