@@ -28,8 +28,12 @@ window.onload = function() {
 
     // On click of the answer, route to another video and remove the buttons.
     answerNumber1.onclick = function() {
+<<<<<<< HEAD
       tempBar.style.background = "#0A1C1F"
       source.setAttribute('src', 'assets/videos/what.mp4');
+=======
+      source.setAttribute('src', 'https://dl.dropboxusercontent.com/content_link/TZn9kvMFOCsrRvQzvbZkvRViHdPzyYmHNGkbxq4k0clQT0LwPcFOpBiwMfwenf9E/file');
+>>>>>>> 5e20a33f60d63bd1eb0e4d6501c4f863a8d807a7
       video.load();
       video.play();
 
@@ -45,8 +49,12 @@ window.onload = function() {
       }
 
     answerNumber2.onclick = function() {
+<<<<<<< HEAD
       tempBar.style.background = "#255B6F"
       source.setAttribute('src', 'assets/videos/ohsupbrah.mp4');
+=======
+      source.setAttribute('src', 'https://dl.dropboxusercontent.com/content_link/eDr2a5LY9HEi9MtaJtsLlrfdkmHfJMY7vTNG840DAy9n6AtOvIt3PtvjUyvgaEIR/file');
+>>>>>>> 5e20a33f60d63bd1eb0e4d6501c4f863a8d807a7
       video.load();
       video.play();
 
@@ -60,8 +68,12 @@ window.onload = function() {
         removeElement('answerNumber2');
 
         answerNumber4.onclick = function() {
+<<<<<<< HEAD
           tempBar.style.background = "#39AAAC"
           source.setAttribute('src', 'assets/videos/shootz.mp4');
+=======
+          source.setAttribute('src', 'https://dl.dropboxusercontent.com/content_link/m2Z9tMUXNbcxr3XW42Ggc3MXJQ0vMSiymw0KooQ05RRrmXbF7bRvezCXXbZTQUEA/file');
+>>>>>>> 5e20a33f60d63bd1eb0e4d6501c4f863a8d807a7
           video.load();
           video.play();
           removeElement('answerNumber4');
