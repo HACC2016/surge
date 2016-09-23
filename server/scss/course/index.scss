@@ -8,7 +8,7 @@ nav.navBarCourse {
     justify-content: flex-start;
     flex-direction: row-reverse;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid grey;
   }
     li {
       height: 50px;
@@ -45,16 +45,16 @@ nav.navBarCourse {
 
         li {
           display: flex;
-          justify-content: space-around;
+          justify-content: flex-start;
           align-items: center;
           align-content: center;
           margin-bottom: 30px;
-          border-bottom: 4px grey;
+          border-bottom: 1px grey;
+          border-right: 1px grey;
           border-bottom-style: inset;
-          background-color: rgb(113, 202, 208);
-          border-radius: 500px;
+          // background-color: rgb(113, 202, 208);
           padding: 10px;
-          color: white;
+          color: black;
           font-family: 'Lato', sans-serif;
         }
 
