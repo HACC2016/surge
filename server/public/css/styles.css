@@ -88,6 +88,15 @@ nav.navBarCourse {
 .course-page ul {
   list-style-type: none; }
 
+.course-page li#title {
+  background-color: #006551;
+  color: white;
+  justify-content: center; }
+
+.course-page li#first {
+  background-color: rgba(79, 196, 177, 0.2);
+  border-radius: 500px; }
+
 .course-page li {
   display: flex;
   justify-content: flex-start;

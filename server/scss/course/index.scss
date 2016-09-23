@@ -10,6 +10,7 @@ nav.navBarCourse {
     align-items: center;
     border-bottom: 1px solid grey;
   }
+
     li {
       height: 50px;
       line-height: 50px;
@@ -42,7 +43,15 @@ nav.navBarCourse {
       ul {
         list-style-type: none;
       }
-
+        li#title {
+          background-color: (rgb(0, 101, 81));
+          color: white;
+          justify-content: center;
+        }
+        li#first {
+          background-color: (rgba(79, 196, 177, 0.2));
+          border-radius: 500px;
+        }
         li {
           display: flex;
           justify-content: flex-start;
