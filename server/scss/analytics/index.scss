@@ -43,12 +43,16 @@ nav.navBarCourse {
     width: 200px;
     border-right: 0.2px solid grey;
     overflow: scroll;
+    display: flex;
+    justify-content: center;
 
       ul {
         list-style-type: none;
+        width: 300px;
       }
 
         li {
+          width: 20px;
           display: flex;
           justify-content: space-around;
           align-items: center;

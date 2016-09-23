@@ -33,10 +33,14 @@ nav.navBarCourse {
     height: 500px;
     width: 200px;
     border-right: 0.2px solid grey;
-    overflow: scroll; }
+    overflow: scroll;
+    display: flex;
+    justify-content: center; }
     .analytics .category ul {
-      list-style-type: none; }
+      list-style-type: none;
+      width: 300px; }
     .analytics .category li {
+      width: 20px;
       display: flex;
       justify-content: space-around;
       align-items: center;
