@@ -1,3 +1,22 @@
+nav.navBarCourse {
+  padding: 0 72px; }
+  nav.navBarCourse ul {
+    display: flex;
+    height: 70px;
+    list-style-type: none;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-bottom: 1px solid black; }
+  nav.navBarCourse li {
+    height: 50px;
+    line-height: 50px;
+    margin: 0 30px; }
+  nav.navBarCourse a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-family: 'Lato', sans-serif; }
 
 nav.navBarCourse {
   padding: 0 72px; }
@@ -18,8 +37,6 @@ nav.navBarCourse {
     list-style-type: none;
     color: black;
     font-family: 'Lato', sans-serif; }
-  nav.navBarCourse .circle {
-    margin: 0 4.8px; }
 
 .course-page section.non-nav {
   display: flex;
