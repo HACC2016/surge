@@ -29,6 +29,10 @@ App.get('/course-page', (req, res) => {
   res.render('course/page');
 });
 
+App.get('/analytics', (req, res) => {
+  res.render('analytics/index')
+})
+
 // expose server as a module
 // this is useful for creating multiple servers
 //
