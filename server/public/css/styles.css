@@ -21,28 +21,27 @@ nav.navBarCourse {
 .analytics {
   height: 600px;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: center; }
+  flex-direction: row-reverse; }
   .analytics .canvas {
     height: 500px;
     width: 500px;
-    margin-left: 200px;
-    display: flex;
-    justify-content: center; }
+    margin-right: 200px;
+    margin-left: 100px; }
   .analytics .category {
     height: 500px;
-    width: 200px;
+    width: 500px;
     border-right: 0.2px solid grey;
     overflow: scroll;
     display: flex;
-    justify-content: center; }
+    justify-content: flex-start; }
     .analytics .category ul {
-      list-style-type: none;
-      width: 300px; }
+      width: 300px;
+      list-style: disc; }
     .analytics .category li {
-      width: 20px;
+      list-style: disc;
+      width: 200px;
       display: flex;
-      justify-content: space-around;
+      justify-content: flex-start;
       align-items: center;
       align-content: center;
       margin-bottom: 30px;
@@ -51,6 +50,9 @@ nav.navBarCourse {
       padding: 10px;
       color: black;
       font-family: 'Lato', sans-serif; }
+    .analytics .category ul.info {
+      list-style-type: disc;
+      width: 20px; }
     .analytics .category a {
       font-family: 'Lato', sans-serif; }
 

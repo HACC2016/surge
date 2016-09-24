@@ -28,33 +28,31 @@ nav.navBarCourse {
   height: 600px;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: center;
 
   .canvas {
     height: 500px;
     width: 500px;
-    margin-left: 200px;
-    display: flex;
-    justify-content: center;
+    margin-right: 200px;
+    margin-left: 100px;
   }
 
   .category {
     height: 500px;
-    width: 200px;
+    width: 500px;
     border-right: 0.2px solid grey;
     overflow: scroll;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 
       ul {
-        list-style-type: none;
         width: 300px;
+        list-style: disc;
       }
-
         li {
-          width: 20px;
+          list-style: disc;
+          width: 200px;
           display: flex;
-          justify-content: space-around;
+          justify-content: flex-start;
           align-items: center;
           align-content: center;
           margin-bottom: 30px;
@@ -64,6 +62,10 @@ nav.navBarCourse {
           color: black;
           font-family: 'Lato', sans-serif;
         }
+          ul.info {
+            list-style-type: disc;
+            width: 20px;
+          }
 
             a {
               font-family: 'Lato', sans-serif;
