@@ -8,7 +8,9 @@ nav.navBarCourse {
     justify-content: flex-start;
     flex-direction: row-reverse;
     align-items: center;
+    border-bottom: 1px solid grey;
   }
+
     li {
       height: 50px;
       line-height: 50px;
@@ -20,10 +22,6 @@ nav.navBarCourse {
         list-style-type: none;
         color: black;
         font-family: 'Lato', sans-serif;
-      }
-
-      .circle {
-        margin: 0 4.8px;
       }
 }
 
@@ -45,19 +43,27 @@ nav.navBarCourse {
       ul {
         list-style-type: none;
       }
-
+        li#title {
+          background-color: (rgb(0, 101, 81));
+          color: white;
+          justify-content: center;
+        }
+        li#first {
+          background-color: (rgba(79, 196, 177, 0.2));
+          border-radius: 500px;
+        }
         li {
           display: flex;
-          justify-content: space-around;
+          justify-content: flex-start;
           align-items: center;
           align-content: center;
           margin-bottom: 30px;
-          border-bottom: 4px grey;
+          border-bottom: 1px grey;
+          border-right: 1px grey;
           border-bottom-style: inset;
-          background-color: rgb(113, 202, 208);
-          border-radius: 500px;
+          // background-color: rgb(113, 202, 208);
           padding: 10px;
-          color: white;
+          color: black;
           font-family: 'Lato', sans-serif;
         }
 
@@ -65,27 +71,27 @@ nav.navBarCourse {
             font-family: 'Lato', sans-serif;
           }
 
-    .temperature {
+    #temperature {
       width: 40px;
       height: 479px;
       margin-left: 30px;
-      border-radius: 500px;
-      border-bottom: 4px solid grey;
-      border-bottom-style: inset;
-      background: rgb(24, 73, 71);
+      background: rgba(79, 196, 177, 1);
       // background: -webkit-linear-gradient(rgb(24, 73, 71), rgb(159, 223, 218));
       // background: -o-linear-gradient(rgb(24, 73, 71), rgb(159, 223, 218);
       // background: -moz-linear-gradient(rgb(24, 73, 71), rgb(159, 223, 218);
       // background: linear-gradient(rgb(24, 73, 71), rgb(159, 223, 218);
     }
 
+      #inner-bar {
+        width: 40px;
+        height: 220px;
+        background-color: rgba(70, 70, 70, 1);
+      }
     #question {
       display: flex;
       justify-content: space-around;
       align-items: center;
       height: 100px;
-      background-color: rgba(121, 201, 210, 0.5);
-      border-radius: 500px;
     }
 
       button {
@@ -96,11 +102,9 @@ nav.navBarCourse {
         min-width: 100px;
         border-radius: 500px;
         font-size: 18px;
-        background-color: rgb(19, 15, 46);
+        background-color: rgb(79, 196, 177);
         border: none;
         color: white;
-        border-bottom: 4px grey;
-        border-bottom-style: inset;
         font-family: 'Lato', sans-serif;
       }
 

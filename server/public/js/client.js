@@ -2,6 +2,8 @@ window.onload = function() {
   // Video variables.
   var video = document.querySelector('#video');
   var source = document.querySelector('#video-source');
+  var tempNumber = 0;
+  var tempBar = document.getElementById('inner-bar');
 
   // Create button and append to div below video.
   function addButton(value, id) {
@@ -26,7 +28,8 @@ window.onload = function() {
 
     // On click of the answer, route to another video and remove the buttons.
     answerNumber1.onclick = function() {
-      source.setAttribute('src', 'https://dl.dropboxusercontent.com/content_link/TZn9kvMFOCsrRvQzvbZkvRViHdPzyYmHNGkbxq4k0clQT0LwPcFOpBiwMfwenf9E/file');
+      tempBar.style.height = "478px";
+      source.setAttribute('src', 'https://dl.dropboxusercontent.com/content_link/4nPc3dbPxSB2rFbXzS9thwtpCPgc5Va91AzOtZh47l58k97GOsz0cfCt4wzAsswb/file');
       video.load();
       video.play();
 
@@ -42,7 +45,8 @@ window.onload = function() {
       }
 
     answerNumber2.onclick = function() {
-      source.setAttribute('src', 'https://dl.dropboxusercontent.com/content_link/eDr2a5LY9HEi9MtaJtsLlrfdkmHfJMY7vTNG840DAy9n6AtOvIt3PtvjUyvgaEIR/file');
+      tempBar.style.height = "220px";
+      source.setAttribute('src', 'https://dl.dropboxusercontent.com/content_link/s8m6UBidkt83mgpVUwhnodA7OC8hV40DgRZBR1MVNaSiZQUzsbS9IPPjqOHFBcZX/file');
       video.load();
       video.play();
 
@@ -56,7 +60,8 @@ window.onload = function() {
         removeElement('answerNumber2');
 
         answerNumber4.onclick = function() {
-          source.setAttribute('src', 'https://dl.dropboxusercontent.com/content_link/m2Z9tMUXNbcxr3XW42Ggc3MXJQ0vMSiymw0KooQ05RRrmXbF7bRvezCXXbZTQUEA/file');
+          tempBar.style.height = "2px";
+          source.setAttribute('src', 'https://dl.dropboxusercontent.com/content_link/kAq1SXbTxNo4ERNyD18N9OjMdnj5J68AqsUSurQlbJADfLXPCIKnil9JNqc9wKQb/file');
           video.load();
           video.play();
           removeElement('answerNumber4');

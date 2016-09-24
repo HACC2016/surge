@@ -6,7 +6,8 @@ nav.navBarCourse {
     list-style-type: none;
     justify-content: flex-start;
     flex-direction: row-reverse;
-    align-items: center; }
+    align-items: center;
+    border-bottom: 1px solid black; }
   nav.navBarCourse li {
     height: 50px;
     line-height: 50px;
@@ -16,8 +17,64 @@ nav.navBarCourse {
     list-style-type: none;
     color: black;
     font-family: 'Lato', sans-serif; }
-  nav.navBarCourse .circle {
-    margin: 0 4.8px; }
+
+.analytics {
+  height: 600px;
+  display: flex;
+  flex-direction: row-reverse; }
+  .analytics .canvas {
+    height: 500px;
+    width: 500px;
+    margin-right: 200px;
+    margin-left: 100px; }
+  .analytics .category {
+    height: 500px;
+    width: 500px;
+    border-right: 0.2px solid grey;
+    overflow: scroll;
+    display: flex;
+    justify-content: flex-start; }
+    .analytics .category ul {
+      width: 300px;
+      list-style: disc; }
+    .analytics .category li {
+      list-style: disc;
+      width: 200px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      align-content: center;
+      margin-bottom: 30px;
+      border-bottom: 1px grey;
+      border-bottom-style: inset;
+      padding: 10px;
+      color: black;
+      font-family: 'Lato', sans-serif; }
+    .analytics .category ul.info {
+      list-style-type: disc;
+      width: 20px; }
+    .analytics .category a {
+      font-family: 'Lato', sans-serif; }
+
+nav.navBarCourse {
+  padding: 0 72px; }
+  nav.navBarCourse ul {
+    display: flex;
+    height: 70px;
+    list-style-type: none;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-bottom: 1px solid grey; }
+  nav.navBarCourse li {
+    height: 50px;
+    line-height: 50px;
+    margin: 0 30px; }
+  nav.navBarCourse a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-family: 'Lato', sans-serif; }
 
 .course-page section.non-nav {
   display: flex;
@@ -33,39 +90,47 @@ nav.navBarCourse {
 .course-page ul {
   list-style-type: none; }
 
+.course-page li#title {
+  background-color: #006551;
+  color: white;
+  justify-content: center; }
+
+.course-page li#first {
+  background-color: rgba(79, 196, 177, 0.2);
+  border-radius: 500px; }
+
 .course-page li {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   align-content: center;
   margin-bottom: 30px;
-  border-bottom: 4px grey;
+  border-bottom: 1px grey;
+  border-right: 1px grey;
   border-bottom-style: inset;
-  background-color: #71cad0;
-  border-radius: 500px;
   padding: 10px;
-  color: white;
+  color: black;
   font-family: 'Lato', sans-serif; }
 
 .course-page a {
   font-family: 'Lato', sans-serif; }
 
-.course-page .temperature {
+.course-page #temperature {
   width: 40px;
   height: 479px;
   margin-left: 30px;
-  border-radius: 500px;
-  border-bottom: 4px solid grey;
-  border-bottom-style: inset;
-  background: #184947; }
+  background: #4fc4b1; }
+
+.course-page #inner-bar {
+  width: 40px;
+  height: 220px;
+  background-color: #464646; }
 
 .course-page #question {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 100px;
-  background-color: rgba(121, 201, 210, 0.5);
-  border-radius: 500px; }
+  height: 100px; }
 
 .course-page button {
   height: 50px;
@@ -75,50 +140,118 @@ nav.navBarCourse {
   min-width: 100px;
   border-radius: 500px;
   font-size: 18px;
-  background-color: #130f2e;
+  background-color: #4fc4b1;
   border: none;
   color: white;
-  border-bottom: 4px grey;
-  border-bottom-style: inset;
   font-family: 'Lato', sans-serif; }
 
 .course-page section.profile-card {
-  height: 300px;
-  width: 300px;
+  height: 505px;
+  width: 330px;
   margin-left: 100px;
   text-align: center;
-  float: left; }
-
-.course-page section.profile-information {
-  margin-left: 60px; }
+  float: left;
+  border-right: 1px solid gray; }
 
 .course-page h3 {
   margin-bottom: 20px;
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif;
+  margin-right: 20px; }
 
 .course-page p {
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif;
+  margin-right: 20px; }
 
 .course-page section.courses-in-progress {
-  float: right;
-  display: flex;
-  justify-content: center;
-  margin-right: 120px; }
+  height: 500px;
+  margin-right: 120px;
+  overflow: scroll; }
 
 .course-page ul {
-  list-style-type: none;
-  margin-right: 40px; }
+  list-style-type: none; }
 
-.course-page li a {
+.course-page li {
+  display: flex;
+  justify-content: space-between; }
+
+.course-page a {
   text-decoration: none;
   list-style-type: none;
   color: black;
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif;
+  margin-left: 70px; }
+
+.course-page .progress {
+  background-color: rgba(70, 70, 70, 0.2);
+  height: 30px;
+  width: 350px;
+  margin-right: 30px; }
+
+.course-page #inner-progress {
+  background-color: #4fc4b1;
+  height: 30px;
+  width: 120px;
+  margin-right: 30px; }
+
+.course-page #inner-progress1 {
+  background-color: #4fc4b1;
+  height: 30px;
+  width: 70px;
+  margin-right: 30px; }
+
+.course-page #inner-progress2 {
+  background-color: #4fc4b1;
+  height: 30px;
+  width: 200px;
+  margin-right: 30px; }
+
+.course-page #inner-progress3 {
+  background-color: #4fc4b1;
+  height: 30px;
+  width: 30px;
+  margin-right: 30px; }
+
+.course-page #inner-progress4 {
+  background-color: #4fc4b1;
+  height: 30px;
+  width: 178px;
+  margin-right: 30px; }
+
+.course-page #inner-progress5 {
+  background-color: #4fc4b1;
+  height: 30px;
+  width: 100px;
+  margin-right: 30px; }
+
+.course-page #inner-progress6 {
+  background-color: #4fc4b1;
+  height: 30px;
+  width: 44px;
+  margin-right: 30px; }
+
+.course-page #inner-progress7 {
+  background-color: #4fc4b1;
+  height: 30px;
+  width: 76px;
+  margin-right: 30px; }
+
+.course-page li.special {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 80px;
+  width: auto;
+  white-space: nowrap; }
+
+.course-page .movie {
+  height: 70px;
+  width: 100px;
+  background-color: rgba(70, 70, 70, 0.2);
+  margin: 2px; }
 
 .course-page img {
-  margin-left: 30px;
   border-radius: 500px;
-  object-fit: cover; }
+  object-fit: cover;
+  margin-right: 20px; }
 
 .home-page {
   /*nav*/
@@ -156,7 +289,7 @@ nav.navBarCourse {
   .home-page a {
     text-decoration: none;
     list-style-type: none;
-    color: black;
+    color: white;
     font-family: 'Lato', sans-serif; }
   .home-page .surge-main {
     height: 400px;
